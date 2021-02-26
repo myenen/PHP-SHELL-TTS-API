@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetPlateStatus xmlns="https://tts.turkiyeshell.com">
+		<cust_code>{customercode}</cust_code>
+		<user_id>{userid}</user_id>
+		<password>{password}</password>
+		<branch_code>{branchcode}</branch_code>
+		<plate_code>{plate}</plate_code>
+		<card_status_code>{cardstatus}</card_status_code>
+		<customer_reference>{reference}</customer_reference>
+    </GetPlateStatus>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <SetCardLimitCountandDays xmlns="https://tts.turkiyeshell.com">
+		<cust_code>{customercode}</cust_code>
+		<user_id>{userid}</user_id>
+		<password>{password}</password>
+		<branch_code>{branchcode}</branch_code>
+		<plate_code>{plate}</plate_code>
+		<set_limit>{setlimit}</set_limit>
+		<daily_limit>{daylimit}</daily_limit>
+		<weekly_limit>{weeklimit}</weekly_limit>
+		<monthly_limit>{montlimit}</monthly_limit>
+		<set_count>{setcount}</set_count>
+		<daily_count>{daycount}</daily_count>
+		<weekly_count>{weekcount}</weekly_count>
+		<monthly_count>{montcount}</monthly_count>
+		<set_days>{setdays}</set_days>
+		<allowed_days>{days}</allowed_days>
+		<customer_reference>{reference}</customer_reference>
+    </SetCardLimitCountandDays>
+  </soap:Body>
+</soap:Envelope>

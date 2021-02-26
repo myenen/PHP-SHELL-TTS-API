@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetCardLimitCountandDays xmlns="https://tts.turkiyeshell.com">
+		<cust_code>{customercode}</cust_code>
+		<user_id>{userid}</user_id>
+		<password>{password}</password>
+		<branch_code>{branchcode}</branch_code>
+		<department_code>{department}</department_code>
+		<plate_code>{plate}</plate_code>
+     </GetCardLimitCountandDays>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RO_GetOnlineTransaction xmlns="https://tts.turkiyeshell.com">
+		<cust_code>{customercode}</cust_code>
+		<user_id>{userid}</user_id>
+		<password>{password}</password>
+		<branch_code>{branchcode}</branch_code>
+		<card_no>{cardno}</card_no>
+		<department_code>{department}</department_code>
+		<RID></RID>
+		<report_start_dt>{bgndate}T09:00:00</report_start_dt>
+		<report_end_dt>{enddate}T09:00:00</report_end_dt>
+		<plate_code>{plate}</plate_code>
+		<customer_reference>{reference}</customer_reference>
+    </RO_GetOnlineTransaction>
+  </soap:Body>
+</soap:Envelope>
